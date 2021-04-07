@@ -1,7 +1,7 @@
 # CNNclassifier
 CNN image classifier for chick embryo stage classification
 
-This repository contains the code required to train a CNN to classify images of different chick embryo stages (stages 10.1, 10.2, 10.3). The training images are avaliable at this link https://drive.google.com/open?id=1Y6eitKyd1gypDd2w81cvq2vAnmqYH637. Please ignore the 10_1 folder in the repository as some of the images uploaded to github but not all.
+This repository contains the code required to train a CNN to classify images of different chick embryo stages (stages 10.1, 10.2, 10.3). The training images are avaliable at this link https://drive.google.com/drive/folders/1e-Ujw2BMhV4thXxXP8jjxQwOT9jY-lsQ?usp=sharing (updated 2021/04/07). Please ignore the 10_1 folder in the repository as some of the images uploaded to github but not all.
 
 The dataset for training the CNN is contained within the 'training_data' folder, which is then split into the 3 stages. These images have already been processed so they are of uniform size and greyscale. Each image is also repeated 24 times at 15° rotational intervals to give a larger training set. 
 The 'images' folder contains the images without the additional rotations, as well as the edge cases which were not used for training. (Nb. it would be interesting to see what the trained model classifies the edge cases as if there is time). If you need the original unprocessed images let me know and we'll work out a way to get them to you.
